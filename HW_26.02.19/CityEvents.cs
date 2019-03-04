@@ -9,6 +9,7 @@ namespace HW_26._02._19
     public enum Events { Пожар, ДеньГорода, Ограбление }
     public delegate void DelEvents(Events e);
     public class CityEvents
+
     {
         Random rnd = new Random();
         public event DelEvents delEv;
